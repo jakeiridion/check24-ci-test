@@ -6,8 +6,6 @@ jobs:
   build:
     name: "Test project"
     runs-on: ubuntu-latest
-    envs:
-      MYVAR: amazement
     steps:
     - uses: actions/checkout@v2.0.0
 
